@@ -3,7 +3,6 @@ package com.hfad.bitsandpizzas;
 public class Pizza {
     private String name;
     private int imageResourceId;
-
     public static final Pizza[] pizzas = {
             new Pizza("Diavolo", R.drawable.diavolo),
             new Pizza("Funghi", R.drawable.funghi)
